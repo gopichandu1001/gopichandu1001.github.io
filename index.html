@@ -1,24 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gopi Chandu Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:12px;
+}
+
+h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.skills span{
+    display:inline-block;
+    background:#2563eb;
+    padding:8px 14px;
+    border-radius:20px;
+    margin:5px;
+}
+
+.project{
+    background:#334155;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.project h3{
+    color:#38bdf8;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#06b6d4;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    margin:5px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+</style>
 </head>
+
 <body>
-<h1>Gopi Chandu Bankapalli</h1>
-<p>Data Analyst & Machine Learning Enthusiast</p>
 
-<h2>Education</h2>
-<p>ANITS - B.Tech CSE (Data Science)</p>
-<p>CGPA: 8.1 | Graduation: 2027</p>
+<header>
+    <h1>Gopi Chandu Bankapalli</h1>
+    <p>Data Analyst | Machine Learning Enthusiast</p>
+</header>
 
-<h2>Projects</h2>
-<ul>
-<li>Telecom Customer Churn Prediction</li>
-<li>Real-Time Product Sentiment Classifier</li>
-<li>High-Throughput Ecommerce Sales Analytics</li>
-</ul>
+<div class="container">
 
-<h2>Contact</h2>
-<p>Email: gopichandu.b04@gmail.com</p>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech CSE (Data Science) student at ANITS with a CGPA of 8.1.
+            Passionate about Data Analytics, Machine Learning, Predictive Modeling,
+            and solving real-world business problems using data.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Education</h2>
+        <p><strong>Anil Neerukonda Institute of Technology and Sciences (ANITS)</strong></p>
+        <p>B.Tech - Computer Science & Engineering (Data Science)</p>
+        <p>CGPA: 8.1 | Graduation: 2027</p>
+    </div>
+
+    <div class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Machine Learning</span>
+            <span>Data Analysis</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Scikit-Learn</span>
+            <span>Power BI</span>
+            <span>Excel</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Telecom Customer Churn Prediction</h3>
+            <p>
+                Developed a machine learning model to predict customer churn
+                and identify key factors affecting customer retention.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Real-Time Product Sentiment Classifier</h3>
+            <p>
+                Built an NLP-based sentiment analysis system for classifying
+                customer reviews and product feedback.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>High-Throughput Ecommerce Sales Analytics</h3>
+            <p>
+                Performed large-scale sales data analysis to identify trends,
+                customer behavior, and revenue opportunities.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: gopichandu.b04@gmail.com</p>
+        <p>LinkedIn: Gopi Chandu Bankapalli</p>
+
+        <div class="buttons">
+            <a class="btn" href="mailto:gopichandu.b04@gmail.com">Email Me</a>
+            <a class="btn" href="https://github.com/gopichandu1001">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/gopi-chandu-bankapalli-030a7a2a3">LinkedIn</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Gopi Chandu Bankapalli
+</footer>
+
 </body>
 </html>
